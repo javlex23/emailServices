@@ -1,0 +1,12 @@
+net\jnext\email\util\JsonDateDeserializer.class
+net\jnext\email\dao\InboxDao.class
+net\jnext\email\bean\MessageBean.class
+net\jnext\email\util\JsonDateSerializer.class
+net\jnext\email\util\Util.class
+net\jnext\email\util\LocalDateAdapter.class
+net\jnext\email\bean\SendBean.class
+net\jnext\email\service\InboxServices.class
+net\jnext\email\enums\AttachmentCondition.class
+net\jnext\email\bean\Attachment.class
+net\jnext\email\enums\TypeFile.class
+net\jnext\email\util\EmailConfig.class

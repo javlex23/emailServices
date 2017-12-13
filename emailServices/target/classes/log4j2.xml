@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- en desarrollo DEBUG , en produccion ERROR -->
+<Configuration status="DEBUG">
+    <Appenders>
+        <RollingFile name="RollingFile" fileName="./logs/emailServices.log"
+                     filePattern="./logs/emailServices-%i.log">
+            <PatternLayout pattern="%p [%d{yyyyMMdd HH:mm:ss.SSS}] - %-12C{} -%L - %m%n" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="4 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="9"/>
+        </RollingFile>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%p [emailServices] [%d{yyyyMMdd HH:mm:ss.SSS}] - %-12C{1} -%L - %m%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <!-- en desarrollo DEBUG , en produccion INFO -->
+        <Root level="DEBUG">
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="Console"/>
+        </Root>
+        <!-- en desarrollo DEBUG , en produccion ERROR -->
+        <Logger name="com.sun.jersey" level="ERROR">
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="ContextFinder" level="ERROR">
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="Console"/>
+        </Logger>       
+    </Loggers>
+</Configuration>
