@@ -1,0 +1,12 @@
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\bean\SendBean.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\bean\MessageBean.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\dao\InboxDao.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\bean\Attachment.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\util\EmailConfig.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\enums\AttachmentCondition.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\util\LocalDateAdapter.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\enums\TypeFile.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\util\JsonDateSerializer.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\service\InboxServices.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\util\JsonDateDeserializer.java
+E:\Proyectos\emailServices\src\main\java\net\jnext\email\util\Util.java
